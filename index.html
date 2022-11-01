@@ -13,7 +13,10 @@
       rel="canonical"
       href="https://sophie-nguyen-0.github.io/ICS2O-unit3-03-testCases/"
     />
-    <link rel="manifest" href="/ICS2O-unit3-03-testCases/manifest.webmanifest" />
+    <link
+      rel="manifest"
+      href="/ICS2O-unit3-03-testCases/manifest.webmanifest"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <!--- None blocking for Lighthouse report --->
     <!--- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously --->
@@ -61,29 +64,34 @@
         <div id="col-1">
           <h2>formula</h2>
           <h3>V=4/3πr³</h3>
-          <br>
+          <br />
           <h5>enter radius:</h5>
           <!-- Numeric Textfield -->
           <form action="#">
             <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="radius">
+              <input
+                class="mdl-textfield__input"
+                type="text"
+                pattern="-?[0-9]*(\.[0-9]+)?"
+                id="radius"
+              />
               <label class="mdl-textfield__label" for="radius">radius...</label>
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
           </form>
-          <br>
+          <br />
           <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()"
-        >
-          button
-        </button>
-        <br>
-        <br>
-        <div id="hello-world"></div>
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="myButtonClicked()"
+          >
+            button
+          </button>
+          <br />
+          <br />
+          <div id="hello-world"></div>
         </div>
         <div id="col-2">
-        <img src="./images/sphere.png" alt="sphere">
+          <img src="./images/sphere.png" alt="sphere" />
         </div>
       </main>
     </div>
