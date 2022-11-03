@@ -17,12 +17,13 @@ if (navigator.serviceWorker) {
  * this function
  */
 function myButtonClicked() {
- // input
+  // input
   const radius = parseFloat(document.getElementById("radius").value)
 
   // process
-  const volume = 4.00 / 3.00 * Math.PI * radius ** 3
+  const volume = (4.0 / 3.0) * Math.PI * radius ** 3
 
   // output
-  document.getElementById("volume").innerHTML = "volume is: " + volume.toFixed(2) + " cm³"
+  document.getElementById("volume").innerHTML =
+    "volume is: " + volume.toFixed(2) + " cm³"
 }
